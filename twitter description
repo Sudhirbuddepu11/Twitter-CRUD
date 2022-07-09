@@ -1,0 +1,46 @@
+I have created a sample signup or register form for twitter.
+I have considered 5 parameters to create account in twitter for a new user.
+parameters that i have considered are:-user age, user gender, user name, user mail, mail password.
+I HAVE CREATED A CLASS NAME TWITTER. and created E1 as object of twitter.
+i have used command line inputs that means inputs from user technique.
+i have generated a MENU bar with 5 options they are:-
+press 1 to creat twitter account
+press 2 to view profile
+press 3 to update twitter profile
+press 4 to retrive particular information
+press 5 to delete details of particular account
+press 6 to exit
+user can select any number and that number stored in "n" variable of int data type.
+Now i have generated if-else loop for each of function mentioned in above menue.
+now i have created a data structure name "DATA" to store details of all twitter users.
+we can retrive,update,delete,and can exit.
+
+sample input:-
+----------------MENU---------------
+press 1 to creat twitter account
+press 2 to view profile
+press 3 to update twitter profile        
+press 4 to retrive particular information
+press 5 to delete details of particular account
+press 6 to exit
+enter the choice:-1
+Enter age : 25
+Enter username : sudhir
+Enter user mail : sudhirbuddepu@gmail.com
+Enter user password : 12345
+Enter gender : male
+enter the choice:-2
+25 sudhir sudhirbuddepu@gmail.com 12345 male
+enter the choice:-3
+enter user age to modify :25
+----------------MENU---------------
+1.age
+2.username
+3.mail
+4.password
+5.gender
+enter your choice to modify :4
+enter new value : 123456
+enter the choice:-5
+enter user age to delete details :25
+enter the choice:-6
